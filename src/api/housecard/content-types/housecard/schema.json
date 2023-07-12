@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "housecards",
+  "info": {
+    "singularName": "housecard",
+    "pluralName": "housecards",
+    "displayName": "housecard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "status": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "sqfoot": {
+      "type": "string"
+    },
+    "bedrooms": {
+      "type": "string"
+    },
+    "baths": {
+      "type": "string"
+    },
+    "landvalue": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "lot": {
+      "type": "string"
+    },
+    "info": {
+      "type": "text"
+    },
+    "threejsfile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
